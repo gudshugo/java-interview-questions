@@ -4,10 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Given a string value with a Roman number, the algorithm should convert it to an integer.
+ * Given a string value with a Roman number, the algorithm must convert it to an integer.
  *
  * Input: XVI
  * Output: 16
+ *
  */
 
 public class RomanToInt {

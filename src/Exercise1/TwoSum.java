@@ -27,7 +27,7 @@ public class TwoSum {
         System.out.println(Arrays.toString(output));
     }
 
-    private static int[] sum(int nums[], int target){
+    private static int[] sum(int[] nums, int target){
 
         Map<Integer, Integer> map = new HashMap<>();
 
@@ -39,7 +39,7 @@ public class TwoSum {
             map.put(nums[i],i);
         }
 
-        return null;
+        return new int[]{};
     }
 
 }
